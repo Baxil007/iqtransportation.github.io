@@ -1,0 +1,55 @@
+.tcontainer{
+    top: 67%;
+    left: 36%;
+    height: 450px;
+    width: 350px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-shadow: 0% 10% 20% rgb(40, 40, 40);
+    animation-direction: reverse;
+    animation: img 1.5s;
+    animation-timing-function: ease-in;
+    
+}
+
+
+.timg{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px 30px 30px 30px;
+
+}
+
+
+@keyframes img{
+    from {top:600px;}
+    to {top: 67%;}
+}
+
+.toverlay{
+    position: absolute;
+    top: 10%;
+    left: 0;
+    bottom: 10%;
+    right: 0;
+    opacity: 0;
+    border-radius: 40px 40px 40px 40px;
+    background: black;
+    cursor: pointer;
+}
+
+
+
+.tcontent{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:#8DFAD7;
+    font-family: Georgia, serif;
+    text-align: center;
+}
+
+.tcontainer:hover .toverlay{
+    opacity: 0.8;
+}

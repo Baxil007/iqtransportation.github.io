@@ -1,0 +1,29 @@
+.introt{
+transition: 0.5s;
+cursor: pointer;
+font-size: 40px;
+height: -400%;
+text-align: center;
+color: #fff;
+size: 20%;
+letter-spacing: 2px;
+}
+
+.iqint:hover{
+    margin-right: 10px;
+}
+
+.trint:hover{
+    margin-left: 10px;
+}
+
+.introt:hover{
+    color: #fff;
+    text-shadow: 0 0 10px #6B2AE5,
+                0 0 20px #6B2AE5,
+                0 0 40px #6B2AE5,
+                0 0 80px #6B2AE5,
+                0 0 120px #6B2AE5,
+                0 0 160px #6B2AE5;
+}
+
